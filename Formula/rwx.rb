@@ -1,25 +1,25 @@
 class Rwx < Formula
   desc "A terminal-based utility for inspecting and modifying file and directory permissions, ownership, and other metadata."
   homepage "https://github.com/vncsmnl/rwx"
-  version "1.0.5"
+  version "1.0.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.5/rwx-aarch64-apple-darwin.tar.xz"
-      sha256 "1946d136df68b23ea41910ff372c4fc9ff0ed979659d47073c076d675e9a8436"
+      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.6/rwx-aarch64-apple-darwin.tar.xz"
+      sha256 "cc546c82424fcadd7b5fa08c819b2d00882f5428a504074424c635194ca66ce7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.5/rwx-x86_64-apple-darwin.tar.xz"
-      sha256 "42e5c4facb52b939f7eef19341b7131c678f62a3f46bf6d38eb27e20ac6d4032"
+      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.6/rwx-x86_64-apple-darwin.tar.xz"
+      sha256 "bccaa736b10cda1c9606136b0b70c33ad098eb582614b711daf779496d3ed2f3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.5/rwx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "762e9b4c89919d69f5acfbd30395d64cff88fe51ee4358802d015e2d855e746f"
+      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.6/rwx-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3339b7d39f4be4589d03af9cddf8517b54e483c6f6a2abcba57fe8fa6964c072"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.5/rwx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "22d9ae2861eb3b9bbd4b838bebf5376b4e3ce315c7091afcd206d864c7becabe"
+      url "https://github.com/vncsmnl/rwx/releases/download/v1.0.6/rwx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8b576b81d51621e3bb36ccecc6fa346b4fb6028744aa9654b20bc8fa03dfbd11"
     end
   end
   license "MIT"
